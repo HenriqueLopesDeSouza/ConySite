@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+
+  .hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+
+  .hero-carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-image 1.5s ease-in-out;
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 600px;
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+
+    .social-icons {
+      margin-top: 15px;
+
+      a {
+        color: #fff;
+        margin: 0 10px;
+        font-size: 2.5rem;
+        transition: 0.3s;
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+
+  // 🔥 Responsividade para Mobile
+  @media (max-width: 767px) {
+    .hero-content {
+      margin-top: 520px;
+
+      h1 {
+        font-size: 2.3rem; // Reduz o tamanho do título
+      }
+
+      p {
+        font-size: 1.3rem; // Reduz o tamanho do texto
+      }
+
+      .social-icons a {
+        font-size: 1.3rem; // Ajusta tamanho dos ícones
+      }
+    }
+  }
+
+  // 🔥 Responsividade para Tablets
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .hero-content {
+      margin-top: 250px;
+
+      h1 {
+        font-size: 3.3rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+      .social-icons a {
+        font-size: 2rem; 
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<section class="portfolio">
+  <h2>Casos Clínicos</h2>
+
+  <!-- Botões de Filtro -->
+  <div class="portfolio-filters">
+    <button (click)="filterPortfolio('todos')">Todos</button>
+    <button (click)="filterPortfolio('facetas')">Facetas</button>
+  </div>
+
+  <!-- Grid de Imagens -->
+  <div class="portfolio-grid">
+    <div *ngFor="let item of filteredPortfolio; let i = index" class="portfolio-item" (click)="openLightbox(i)">
+      <img [src]="item.src" [alt]="item.caption">
+    </div>
+  </div>
+</section>
