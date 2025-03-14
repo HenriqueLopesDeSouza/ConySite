@@ -1,0 +1,52 @@
+{
+  "hash": "e9e5a4d0",
+  "configHash": "a2583a4b",
+  "lockfileHash": "72ab78a4",
+  "browserHash": "24bb4dde",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "45241ef8",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "7e61bd5c",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "8997a62f",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "59cc7abe",
+      "needsInterop": false
+    },
+    "ngx-lightbox": {
+      "src": "../../../../../../node_modules/ngx-lightbox/index.js",
+      "file": "ngx-lightbox.js",
+      "fileHash": "e457b242",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5FEFAV2F": {
+      "file": "chunk-5FEFAV2F.js"
+    },
+    "chunk-FP22HKQS": {
+      "file": "chunk-FP22HKQS.js"
+    },
+    "chunk-Q33QI3O6": {
+      "file": "chunk-Q33QI3O6.js"
+    },
+    "chunk-W3QOT4NA": {
+      "file": "chunk-W3QOT4NA.js"
+    }
+  }
+}
